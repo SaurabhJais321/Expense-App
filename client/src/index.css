@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content{
+    min-height: 95vh !important;
+}
+
+.navbar{
+    background-color:rgb(114, 111, 111) !important;
+}
+
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+
+.switch-icon{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.antiicon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color: black;
+}
+
+.inactive-icon{
+  color: gray;
+}
+
+.card-css{
+  width: 300px;
+  background-color: #d8c9eb;
+  align-items: center;
+  
+}
+
+.analytics-div{
+  min-height: 80vh;
+  border: 1px solid black;
+  margin: 4px;
+  border-radius: 7px;
+  background-color: rgb(206, 220, 220);
+}
+.main-div{
+  border: 1px solid black;
+  margin: 4px;
+  border-radius: 7px;
+  background-color: rgb(215, 206, 193);
+}
+.table-div{
+  min-height: 80vh;
+  border: 1px solid black;
+  margin: 4px;
+  border-radius: 7px;
+}
+
+.heading1{
+  border: 1px solid black;
+  margin: 3px;
+  padding: 1px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: rgb(126, 196, 126);
+}
+
+.heading2{
+  border: 1px solid black;
+  margin: 3px;
+  padding: 1px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: rgb(216, 103, 103)
+}
+
+.register-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://www.loanry.com/blog/wp-content/uploads/2019/03/BM3TCPCCTRDFVALQO6VLM3JGME.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.login-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(https://static.producer.com/wp-content/uploads/2023/04/14145354/personal-finance-GettyImages-1145950008.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.login-form{
+  border: 2px solid black;
+  width: 370px;
+  border-radius: 5px;
+  background-color:rgb(146, 145, 145);
+  padding: 20px;
+}
+
+.profile-img{
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  
+}
+.userProfile{
+  border-radius: 50%;
+  width: 100px;
+    height: 100px;
+}
